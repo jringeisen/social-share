@@ -8,6 +8,11 @@ Install the package with the following command
 composer require jringeisen/social-share
 ```
 
+Social Share depends on Laravel Socialite to be able to connect your social platforms, so make sure to install it.
+```php
+composer require laravel/socialite
+```
+
 Then migrate the databse
 ```php
 php artisan migrate
