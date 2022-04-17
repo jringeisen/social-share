@@ -37,7 +37,7 @@ class FacebookCallback
             ]);
         });
 
-        return redirect()->route('dashboard');
+        return redirect()->route(config('social-share.callback_redirect'));
     }
 
     /**

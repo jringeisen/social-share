@@ -29,6 +29,6 @@ class TwitterCallback
             'social_platform' => 'twitter',
         ]);
 
-        return redirect()->route('dashboard');
+        return redirect()->route(config('social-share.callback_redirect'));
     }
 }

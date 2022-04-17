@@ -54,4 +54,4 @@ $facebook->postPhoto($url, $text);
 - [ ] Create tests.
 - [ ] Implement posting images to Twitter.
 - [ ] Add other social platforms such as LinkedIn, Youtube, Pinterest.
-- [ ] Add callback redirect path to config
+- [X] Add callback redirect path to config

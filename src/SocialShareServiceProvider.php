@@ -13,5 +13,10 @@ class SocialShareServiceProvider extends ServiceProvider
 
         // Load the database migrations
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+
+        // Publishes the configuation file.
+        $this->publishes([
+            __DIR__.'/../config/social-share.php' => config_path('social-share.php'),
+        ]);
     }
 }
