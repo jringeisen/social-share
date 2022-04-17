@@ -1,5 +1,5 @@
-# Laravel Social Share
-Laravel social share is a package that allows you to connect and post to social platforms such as Twitter, Facebook, and Instagram.
+# Social Share
+Social Share is a Laravel package that allows you to connect and post to social platforms such as Twitter, Facebook, and Instagram.
 
 ## Getting Started
 
