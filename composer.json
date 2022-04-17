@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Jringeisen\\SocialShare\\": "src/"
+            "Jringeisen\\SocialShare\\": "src"
         }
     },
     "authors": [
@@ -16,5 +16,12 @@
     ],
     "require-dev": {
         "phpunit/phpunit": "^9.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jringeisen\\SocialShare\\SocialShareServiceProvider"
+            ]
+        }
     }
 }
